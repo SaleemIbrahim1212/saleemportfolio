@@ -18,15 +18,16 @@ const About = () => {
 <p  className='text-black text-center mt-4'> I primarly use Python to write my code and often other Javascript Framewoks such as React and Next.js. I have also worked with <span className='text-green-300'> Android Studio</span>, writing android apps in Java and currently learning how to write apps in Flutter! </p>
 <p  className='text-black text-center mt-4 '> One of my main intresets is in machine learning and artificial intelligence , currently I recently completed a <span className='text-red-300'> machine learning specialization </span>at Coursera and currently seeking to complete the amazing Deep Learning Specialization there!  </p>
 <p  className='text-black text-center mt-4 '> Besides these I often enjoy going for runs, I have been doing so for the past 2 years now, I also like watching soccer, my favorite team to watch every weekend is chelsea and I often love books, <span className='text-blue-500'>here are some books I have read so far </span>  </p>
-
+<button className='bg-black text-white w-full mt-6 h-16'> Download My Resume </button>
 </div>
 
-<div className='flex flex-col w-full mt-10'> 
+<div className='flex flex-col w-full mt-16'> 
 
 <h1 className='text-black self-center font-bold text-2xl px-4'> My Skills</h1>
 <h3 className='text-black font-bold'> React </h3>
 <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
   <div class="bg-blue-600 h-2.5 rounded-full" style={{width: "80%"}}></div>
+
 </div>
 
 <h3 className='text-black font-bold mt-8'> Python </h3>
@@ -51,9 +52,12 @@ const About = () => {
   </div> 
 
   <h3 className='text-black font-bold mt-8'> Koitlin </h3>
-<div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+<div class="w-full bg-gray-600 rounded-full h-2.5 dark:bg-gray-700">
   <div class="bg-blue-600 h-2.5 rounded-full" style={{width: "40%"}}></div>
   </div> 
+
+  <button className=' font-bold ml-14 self-center bg-gray-200 text-black w-4/5 mt-6 h-16'> Send Me a Message! </button>
+
 </div>
 </div>
 </div> 
