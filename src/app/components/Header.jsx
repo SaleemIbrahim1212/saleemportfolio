@@ -5,6 +5,8 @@ import {FaGithubAlt} from 'react-icons/fa'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiOutlineDown} from 'react-icons/ai'
 import {ImTerminal} from 'react-icons/im'
+import Link from 'next/link'
+
 
 const Header = () => {
   return (
@@ -15,7 +17,7 @@ const Header = () => {
     <nav>
       <ul className='flex space-x-4'>
         <li className='hover:text-blue-400 cursor-pointer text-lg'>Home</li>
-        <li className='hover:text-blue-400 cursor-pointer text-lg'>About</li>
+        <Link href = "#About_Section"> <li className='hover:text-blue-400 cursor-pointer text-lg'>About</li></Link>
         <li className='hover:text-blue-400 cursor-pointer text-lg'>Projects</li>
         <li className='hover:text-blue-400 cursor-pointer text-lg'>Experience</li>
         <li className='hover:text-blue-400 cursor-pointer text-lg'>Resume</li>
