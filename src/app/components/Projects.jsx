@@ -1,7 +1,7 @@
 import React from 'react';
 const Projects = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col bg-gray-300'>
       <h3 className='text-3xl text-blue-400 p-4 pb-0 text-center font-semibold m-4'>Projects</h3>
       <span className='text-black text-center text-lg font-semibold mt-5'>Here are some recent projects I have worked on and am currently working on!</span>
       <div className='border border-gray-500 w-52 self-center mt-10' />
