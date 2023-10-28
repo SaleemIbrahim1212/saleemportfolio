@@ -1,5 +1,4 @@
 import React from 'react';
-import mugiwara_demo  from '../assests/mugiwara_demo.png';
 const Projects = () => {
   return (
     <div className='flex flex-col'>
