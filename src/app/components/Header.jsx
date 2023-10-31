@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import {AiFillFilePdf} from 'react-icons/ai'
 import {FaGithubAlt} from 'react-icons/fa'

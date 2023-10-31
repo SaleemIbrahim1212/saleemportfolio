@@ -5,16 +5,13 @@ import { loadFull } from "tsparticles";
 
 const particleBackground = () => {
   const particlesInit = async (engine) => {
-    // Initiate the tsParticles instance (engine) here
     await loadFull(engine);
   };
-
   return (
     <div className='absolute' style={{ backgroundColor: 'black' }}>
       <Particles
         options={{
           background: {
-            // Set the background color to black
             color: "#000000",
           },
           fpsLimit: 60,
