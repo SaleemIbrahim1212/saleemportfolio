@@ -26,7 +26,6 @@ const particleBackground = () => {
           },
           particles: {
             color: {
-              // Set the color to your desired value
               value: "#9fafca",
             },
             number: {
@@ -51,9 +50,8 @@ const particleBackground = () => {
               value: 1,
             },
             shape: {
-              // Set the shape to "polygon" and specify the sides for a hexagon
               type: "polygon",
-              sides: 6, // 6 sides for a hexagon
+              sides: 6, 
             },
             size: {
               random: {
