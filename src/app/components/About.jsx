@@ -1,9 +1,11 @@
 import React from 'react'
 import SkillBar from '../containers/SkillBar'
+import particleBackground from './ParticleBackground'
 const About = () => {
   return (
 
-    <div className='flex justify-center p-4 m-20'> 
+    <div className=' relative bg-white flex justify-center p-4 m-0  ml-0 mr-0 mb-0'> 
+    <particleBackground/> 
     <div id = "About_Section" className='flex flex-col'> 
         <h3 className='text-3xl text-blue-400 p-4 pb-0 text-center font-semibold m-4'>About</h3>
         <h1 className='text-5xl text-black text-center font-bold'> More About Me </h1>

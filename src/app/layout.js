@@ -1,6 +1,6 @@
 import './globals.css'
 import { Open_Sans } from 'next/font/google'
-
+import ParticleBackground from './components/particleBackground'
 const inter = Open_Sans({ subsets: ['latin'] })
 
 export const metadata = {
@@ -11,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+
 
       <body className={inter.className}>{children}</body>
     </html>

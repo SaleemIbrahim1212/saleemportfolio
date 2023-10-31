@@ -6,12 +6,12 @@ import {AiFillLinkedin} from 'react-icons/ai'
 import {AiOutlineDown} from 'react-icons/ai'
 import {ImTerminal} from 'react-icons/im'
 import Link from 'next/link'
-
+import ParticleBackground from './ParticleBackground'
 
 const Header = () => {
   return (
     
-<div className='w-full bg-black flex flex-col justify-between self-center'>
+<div className=' relative w-full bg-transparent flex flex-col justify-between self-center'>
       <div className='flex justify-between px-4 py-3'>
         <ImTerminal size={30}/>
     <nav>
