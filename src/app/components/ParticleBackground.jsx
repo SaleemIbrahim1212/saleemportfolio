@@ -37,7 +37,7 @@ const particleBackground = () => {
               animation: {
                 enable: true,
                 minimumValue: 0.05,
-                speed: 1,
+                speed: 3,
                 sync: false,
               },
               random: {

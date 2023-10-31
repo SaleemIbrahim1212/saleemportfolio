@@ -19,7 +19,7 @@ const About = () => {
 
         <div className='w-full grid  sm:grid lg:grid-cols-2 sm:grid-cols-1 m-10 h-full'>
           <div className='flex-col lg:m-6 lg:ml-0 p-6 self-center mt-4 w-full flex flex-wrap right-0'>
-            <h1 className='text-black  font-bold text-2xl px-4 self-center '> Hello! </h1>
+            <h1 className='text-black  font-bold text-2xl lg:px-4 sm:px-0 self-center '> Hello! </h1>
             <p className='text-black text-center mt-4 py-1'>
               I am Saleem, a computer science and psychology student with experience in web dev and help desk/customer support. I have previously worked as a <span className='text-purple-900'> Teaching and Learning Systems Assistant at Wilfrid Laurier University</span>
             </p>
