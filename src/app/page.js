@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 export default function Home() {
   return (
     
-<main className=" flex-grow-1 h-full flex flex-col overflow-x-hidden w-full">
+<main className="  h-full flex flex-col overflow-x-hidden w-full">
   <Header/> 
   <About/>
   <Experience/> 

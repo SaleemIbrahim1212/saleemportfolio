@@ -11,7 +11,7 @@ import Link from 'next/link'
 const Header = () => {
   return (
     
-<div className='w-full bg-black h-fit flex flex-col justify-between'>
+<div className='w-full bg-black flex flex-col justify-between self-center'>
       <div className='flex justify-between px-4 py-3'>
         <ImTerminal size={30}/>
     <nav>
@@ -25,7 +25,7 @@ const Header = () => {
     </nav>
 
   </div>
-  <div className='flex flex-col items-center mb-14 justify-between mt-14'>
+  <div className='flex flex-col items-center mt-40 mb-14 justify-between'>
   <span className='text-blue-400 text-xl px-3'>Hi there!</span>
   <span className='text-3xl mt-3'>
     My Name is <span className='text-blue-400'> Saleem Ibrahim</span>
@@ -43,8 +43,8 @@ const Header = () => {
         <button className='border border-white m-3 p-3 rounded-full' > Recent Projects</button> 
   </div>
 </div>
-<div className='flex flex-auto'> 
-<span className='font-sans ml-3'> Scroll down </span>
+<div className='flex flex-auto mt-64'> 
+<span className='font-sans ml-3 mb-10'> Scroll down </span>
 <span className='text-blue-400 ml-1 mt-2 hover: cursor-pointer'><AiOutlineDown/>  </span>
 </div>
 </div>
