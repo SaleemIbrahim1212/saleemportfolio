@@ -37,8 +37,8 @@ const Header = () => {
     </ul>
     </div>
   <div className='flex p-6 rounded-b-md '>
-        <Link href='#About_Section' > <button className='border border-white m-3 p-3 rounded-full'> About Me </button></Link>
-        <Link href='#Projects_Section'><button className='border border-white m-3 p-3 rounded-full' >My Works </button>  </Link>
+        <Link href='#About_Section' > <button className='border border-white text-white m-3 p-3 rounded-full'> About Me </button></Link>
+        <Link href='#Projects_Section'><button className='border border-white text-white m-3 p-3 rounded-full' >My Works </button>  </Link>
   </div>
 </div>
 <div className='flex flex-auto mt-64'> 
