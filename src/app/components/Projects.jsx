@@ -37,7 +37,7 @@ const Projects = () => {
               alt="image description"
             />
                 <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                <h3 className="text-xl text-blue-800 font-bold">
+                <h3 className="text-xl text-white font-serif font-bold">
                   FPL Prediction Model
                 </h3>
                 <p className="mt-2 text-sm text-gray-300">Get Expected FPL Points and more! (work in progress!) </p>
@@ -58,7 +58,7 @@ const Projects = () => {
               alt="image description"
             />
                     <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                <h3 className="text-xl text-blue-800 font-bold">
+                <h3 className="text-xl text-white font-serif font-bold">
                   Keep Up!
                 </h3>
                 <p className="mt-2 text-sm text-gray-300">A student and instructor management tool to keep up with studies!</p>
@@ -77,7 +77,7 @@ const Projects = () => {
               alt="image description"
             />
              <div className="absolute h-fit bottom-4 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                <h3 className="text-xl text-blue-800 font-bold">
+                <h3 className="text-xl text-white font-serif font-bold">
                   Promptopia
                 </h3>
                 <p className="mt-2 text-sm text-gray-300">Discover and share AI powered prompts </p>
