@@ -28,7 +28,7 @@ const Projects = () => {
           </div>
           
           <div className="w-full max-w-lg p-2 relative">
-          <a href='https://boisterous-halva-9c7a7a.netlify.app/' target='_blank'> 
+          <a href='https://fplpredictor.vercel.app/' target='_blank'> 
 
             <div className= "secondgroup group">
             <img
