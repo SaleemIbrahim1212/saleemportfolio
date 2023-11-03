@@ -16,7 +16,7 @@ const Header = () => {
     <nav>
       <ul className=' flex space-x-4'>
         <li className='hover:text-blue-400 tex-white  cursor-pointer text-lg'>Home</li>
-        <Link href = "#About_Section" > <li className='hover:text-blue-400 cursor-pointer text-lg text-white'>About</li></Link>
+        <Link href = "#About_Section" > <li className='text-blue-400 cursor-pointer text-lg'>About</li></Link>
         <Link   href = "#Experience_Section" className=' scroll-smooth'>  <li className='hover:text-blue-400 cursor-pointer text-lg text-white'>Experience</li> </Link> 
         <Link href = "#Projects_Section" className=' scroll-smooth'> <li className='hover:text-blue-400 cursor-pointer text-lg text-white '>Projects</li> </Link> 
         <Link href = "#Message_Form" className=' scroll-smooth'>  <li className='hover:text-blue-400 cursor-pointer text-lg text-white'>Contact Me</li> </Link> 
@@ -41,7 +41,7 @@ const Header = () => {
         <Link href='#Projects_Section'><button className='border border-white text-white m-3 p-3 rounded-full' >My Works </button>  </Link>
   </div>
 </div>
-<div className='flex flex-auto mt-64'> 
+<div className='flex flex-auto mt-64 animate-bounce'> 
 <Link href='#About_Section' className='font-sans ml-3 text-white mb-10'> Scroll down</Link>
 <Link href='#About_Section' className='text-blue-400 ml-1 mt-2 hover: cursor-pointer'><AiOutlineDown/>   </Link>
 </div>
