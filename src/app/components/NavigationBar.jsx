@@ -55,7 +55,7 @@ const NavigationBar = () => {
                     >
                         <svg className='h-6 w-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'
                             xmlns='http://www.w3.org/2000/svg'>
-                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2'
+                            <path strokeLine cap='round' strokeLinejoin='round' strokeWidth='2'
                                 d='M6 18L18 6M6 6l12 12'></path>
                         </svg>
                     </button>
@@ -63,16 +63,16 @@ const NavigationBar = () => {
                 <div className='flex flex-col items-center mt-16'>
                     <ul className='flex flex-col space-y-4'>
                         <li className='text-blue-400 cursor-pointer text-lg'>Home</li>
-                        <Link href='#About_Section'>
+                        <Link onClick={toggleMobileMenu} href='#About_Section'>
                             <li className='hover:text-blue-400 text-white cursor-pointer text-lg'>About</li>
                         </Link>
-                        <Link href='#Experience_Section' className='scroll-smooth'>
+                        <Link onClick={toggleMobileMenu} href='#Experience_Section' className='scroll-smooth'>
                             <li className='hover:text-blue-400 cursor-pointer text-lg text-white'>Experience</li>
                         </Link>
-                        <Link href='#Projects_Section' className='scroll-smooth'>
+                        <Link  onClick={toggleMobileMenu} href='#Projects_Section' className='scroll-smooth'>
                             <li className='hover:text-blue-400 cursor-pointer text-lg text-white '>Projects</li>
                         </Link>
-                        <Link href='#Message_Form' className='scroll-smooth'>
+                        <Link onClick={toggleMobileMenu} href='#Message_Form' className='scroll-smooth'>
                             <li className='hover:text-blue-400 cursor-pointer text-lg text-white'>Contact Me</li>
                         </Link>
                     </ul>
