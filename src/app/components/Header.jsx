@@ -3,7 +3,7 @@ import {FaGithubAlt} from 'react-icons/fa'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiOutlineDown} from 'react-icons/ai'
 import {ImTerminal} from 'react-icons/im'
-import NavigationBar from './navigationbar'
+import NavigationBar from './NavigationBar'
 import Link from 'next/link'
 
 
