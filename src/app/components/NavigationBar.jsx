@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { ImTerminal } from 'react-icons/im';
 import Link from 'next/link';
 
-const Navbar = () => {
+const NavigationBar = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const toggleMobileMenu = () => {
@@ -82,4 +82,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavigationBar;
