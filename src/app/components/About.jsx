@@ -15,9 +15,9 @@ const About = () => {
         </span>
         <div className='border border-gray-500 w-52 self-center mt-10' />
 
-        <div className='w-full grid  sm:grid lg:grid-cols-2 sm:grid-cols-1 m-10 h-full'>
+        <div className='w-full grid md:grid-cols-2 grid-cols-1 md:m-10 ml-2 m-0 h-full'>
           <div className='flex-col lg:m-6 lg:ml-0 p-6 self-center mt-4 w-full flex flex-wrap right-0'>
-            <h1 className='text-white  font-bold text-2xl lg:px-4 sm:px-0 self-center '> Hello! </h1>
+            <h1 className='text-white  font-bold text-2xl md:px-4 px-0 self-center '> Hello! </h1>
             <p className='text-white text-center mt-4 py-1'>
             I am Saleem, a computer science and psychology graduate with experience in web development and help desk/customer support. I previously worked as a <span className='text-purple-500'>Teaching and Learning Systems Assistant  </span> at <a href='https://www.wlu.ca/' target='_blank' className=' text-yellow-600'> Wilfrid Laurier University. </a> 
                         </p>
@@ -32,7 +32,7 @@ In addition to my professional pursuits, I'm quite passionate about a few person
             </p>
           </div>
 
-          <div className='flex flex-col mt-14 w-11/12 mr-10'>
+          <div className='flex flex-col mt-14 w-11/12 mr-10 mb-5 ml-7 md:ml-0'>
             <h1 className='text-white self-center font-bold text-2xl px-4'> My Skills</h1>
             <h3 className='text-white font-bold'> React </h3>
             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
@@ -64,9 +64,9 @@ In addition to my professional pursuits, I'm quite passionate about a few person
           </div>
         </div>
 
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 w-full self-center'>
-          <Link href="https://drive.google.com/file/d/1snaW1R9v7Td2UArQIpz2KNEXu7hf-PUi/view?usp=sharing" target='_blank'> <button className='font-bold ml-14 lg:mb-0 sm:mb-5 self-center border border-blue-300 bg-black text-white w-11/12 h-16'> Check out My Resume! </button> </Link>
-          <Link href = "#Message_Form"> <button className=' font-bold ml-14 self-center lg:mt-0 sm:mt-6 bg-gray-200 text-black w-11/12 h-16'> Send Me a Message! </button></Link>
+        <div className='grid md:grid-cols-2 grid-cols-1 w-full self-center'>
+          <Link className='mb-2' href="https://drive.google.com/file/d/1snaW1R9v7Td2UArQIpz2KNEXu7hf-PUi/view?usp=sharing" target='_blank'> <button className='font-bold ml-7 md:ml-14 lg:mb-0 sm:mb-5 self-center border border-blue-300 bg-black text-white w-11/12 h-16'> Check out My Resume! </button> </Link>
+          <Link href = "#Message_Form"> <button className=' font-bold ml-7 md:ml-14 self-center lg:mt-0 sm:mt-6 bg-gray-200 text-black w-11/12 h-16'> Send Me a Message! </button></Link>
         </div>
       </div>
     </div>

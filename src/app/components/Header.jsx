@@ -1,29 +1,18 @@
 import React from 'react'
-import {AiFillFilePdf} from 'react-icons/ai'
 import {FaGithubAlt} from 'react-icons/fa'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiOutlineDown} from 'react-icons/ai'
 import {ImTerminal} from 'react-icons/im'
+import NavigationBar from './navigationbar'
 import Link from 'next/link'
+
 
 const Header = () => {
   return (
     
 <div className=' relative w-full bg-transparent flex flex-col justify-between self-center'>
   
-      <div className='flex justify-between px-4 py-3'>
-        <ImTerminal size={30} className='fill-white'/>
-    <nav>
-      <ul className=' flex space-x-4'>
-        <li className='text-blue-400 cursor-pointer text-lg'>Home</li>
-        <Link href = "#About_Section" > <li className='hover:text-blue-400 text-white cursor-pointer text-lg'>About</li></Link>
-        <Link   href = "#Experience_Section" className=' scroll-smooth'>  <li className='hover:text-blue-400 cursor-pointer text-lg text-white'>Experience</li> </Link> 
-        <Link href = "#Projects_Section" className=' scroll-smooth'> <li className='hover:text-blue-400 cursor-pointer text-lg text-white '>Projects</li> </Link> 
-        <Link href = "#Message_Form" className=' scroll-smooth'>  <li className='hover:text-blue-400 cursor-pointer text-lg text-white'>Contact Me</li> </Link> 
-      </ul>
-    </nav>
-
-  </div>
+  <NavigationBar/> 
   <div className='flex flex-col items-center mt-40 mb-14 justify-between'>
   <span className='text-blue-400 text-xl px-3'>Hi there!</span>
   <span className='text-3xl mt-3 text-white'>

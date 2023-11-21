@@ -3,7 +3,7 @@ import React from 'react'
 const TimeLines = () => {
   return (
 
-<ol className="relative border-l border-gray-200 dark:border-gray-700 self-center ml-24 w-2/4 mt-4">                  
+<ol className="relative border-l border-gray-200 dark:border-gray-700 md:ml-9 md:mr-11 md:w-1/2 m-0 mt-5">                  
     <li className="mb-10 ml-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <p className="mb-1 text-sm leading-none text-gray-400 dark:text-gray-500 font-bold">Teaching and Learning Systems Assisstant: May 2021 - Aug 2022 </p>

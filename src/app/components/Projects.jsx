@@ -4,10 +4,10 @@ const Projects = () => {
     <div id="Projects_Section" className=' relative flex flex-col bg-black'>
       <h3 className='text-3xl text-blue-400 p-4 pb-0 text-center font-semibold m-4'>Projects</h3>
       <span className='text-white text-center text-lg font-semibold mt-5'>Here are some recent projects I have worked on and am currently working on!</span>
-      <div className='border border-gray-500 w-52 self-center mt-10' />
+      <div className='border mt-4 border-gray-500 w-52 self-center md:mt-10' />
 
-      <div className='grid place-items-center min-h-screen xs:grid-cols-2'>
-        <div className="p-4 max-w-5xl gap-4 grid grid-cols-2 m-4">
+      <div className='grid place-items-center min-h-screen w-full self-center grid-cols-1'>
+        <div className="p-4 max-w-5xl gap-4 grid md:grid-cols-2 grid-cols-1 m-4">
         <div className="w-full max-w-lg p-2 relative">
           <a href='https://github.com/SaleemIbrahim1212/movieproj' target='_blank'> 
         <div className="group">

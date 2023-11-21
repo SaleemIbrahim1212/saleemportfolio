@@ -29,6 +29,7 @@ const ContactForm = () => {
 
 
     ).then(() => {
+      //TODO: Change the alert so we get a good notificiation bubble
       alert("Thank you, I will get back to you shortly")
       setFormData({
         from_name: '',
