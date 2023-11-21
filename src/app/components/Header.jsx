@@ -15,8 +15,8 @@ const Header = () => {
         <ImTerminal size={30} className='fill-white'/>
     <nav>
       <ul className=' flex space-x-4'>
-        <li className='hover:text-blue-400 tex-white  cursor-pointer text-lg'>Home</li>
-        <Link href = "#About_Section" > <li className='text-blue-400 cursor-pointer text-lg'>About</li></Link>
+        <li className='text-blue-400 cursor-pointer text-lg'>Home</li>
+        <Link href = "#About_Section" > <li className='hover:text-blue-400 text-white cursor-pointer text-lg'>About</li></Link>
         <Link   href = "#Experience_Section" className=' scroll-smooth'>  <li className='hover:text-blue-400 cursor-pointer text-lg text-white'>Experience</li> </Link> 
         <Link href = "#Projects_Section" className=' scroll-smooth'> <li className='hover:text-blue-400 cursor-pointer text-lg text-white '>Projects</li> </Link> 
         <Link href = "#Message_Form" className=' scroll-smooth'>  <li className='hover:text-blue-400 cursor-pointer text-lg text-white'>Contact Me</li> </Link> 

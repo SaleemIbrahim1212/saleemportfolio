@@ -7,8 +7,9 @@ const particleBackground = () => {
   const particlesInit = async (engine) => {
     await loadFull(engine);
   };
+
   return (
-    <div className='absolute' style={{ backgroundColor: 'black' }}>
+    <div className='absolute bg-black'>
       <Particles
         options={{
           background: {
@@ -23,7 +24,7 @@ const particleBackground = () => {
           },
           particles: {
             color: {
-              value: "#9fafca",
+              value: ["#BD10E0","#B8E986","#50E3C2","#FFD300","#E86363"]
             },
             number: {
               density: {
@@ -46,10 +47,7 @@ const particleBackground = () => {
               },
               value: 1,
             },
-            shape: {
-              type: "polygon",
-              sides: 6, 
-            },
+
             size: {
               random: {
                 enable: true,
