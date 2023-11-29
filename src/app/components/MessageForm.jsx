@@ -14,11 +14,7 @@ const MessageForm = () => {
         <div className='w-full lg:w-1/2 px-4'>
           <ContactForm />
         </div>
-        <div className='w-full lg:w-1/2 px-4 flex mt-10 align-middle ml-7'>
-          <div className='text-blue-300'>
-            <h1>Email address</h1>
-            <p className='text-white'>saleemibramza[at]gmail.com</p>
-          </div>
+      
         </div>
       </div>
     </div>
