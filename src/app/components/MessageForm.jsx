@@ -15,7 +15,6 @@ const MessageForm = () => {
           <ContactForm />
         </div>
       
-        </div>
       </div>
     </div>
   );
