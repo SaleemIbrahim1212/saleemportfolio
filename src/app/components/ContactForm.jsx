@@ -1,10 +1,9 @@
-'use client'
+'use client';
 import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react';
 
 const ContactForm = () => {
   const form = useRef();
-
 
   const [formData, setFormData] = useState({
     from_name: '',
@@ -20,17 +19,15 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('here is the process service id')
     emailjs.sendForm(
       'service_q3wcyzw',
       'template_dztmpxn', 
       form.current, 
       'VDtnfaY3PId6ZvJta', 
 
-
     ).then(() => {
       //TODO: Change the alert so we get a good notificiation bubble
-      alert("Thank you, I will get back to you shortly")
+      alert('Thank you, I will get back to you shortly');
       setFormData({
         from_name: '',
         email: '',
@@ -39,35 +36,45 @@ const ContactForm = () => {
       });
       
     }).catch((error) => {
-      console.log(error)
-      alert("Failure in sending")
-    })
+      console.log(error);
+      alert('Failure in sending');
+    });
   };
 
-  return (
+  const labelClass =
+    'block text-blue-400 text-sm font-bold mb-2';
+  const inputClass =
+    'shadow bg-black appearance-none border border-transparent border-b-gray-600 rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline';
+  const textareaClass =
+    'shadow h-80 bg-black appearance-none border border-transparent border-b-gray-600 rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline';
 
-    <div  className=" relative max-w-md mx-auto w-full">
-      <form ref= {form} onSubmit={handleSubmit} className="bg-black shadow-md rounded px-8 pt-6 pb-8 mb-4">
+  return (
+    <div className="relative mx-auto w-full max-w-md">
+      <form
+        ref={form}
+        onSubmit={handleSubmit}
+        className="rounded bg-black px-8 pb-8 pt-6 shadow-md"
+      >
         <div className="mb-4">
-          <label className="block text-blue-400 text-sm font-bold mb-2" htmlFor="name">
+          <label className={labelClass} htmlFor="from_name">
             Name
           </label>
           <input
-            className="shadow bg-black appearance-none border border-transparent border-b-gray-600 rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className={inputClass}
             id="from_name"
             type="text"
             name="from_name"
-            value={formData.name}
+            value={formData.from_name}
             onChange={handleChange}
             placeholder="Your Name"
           />
         </div>
         <div className="mb-4">
-          <label className="block text-blue-400 text-sm font-bold mb-2" htmlFor="email">
+          <label className={labelClass} htmlFor="email">
             Email
           </label>
           <input
-            className="shadow bg-black appearance-none border border-transparent border-b-gray-600 rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outlinee"
+            className={inputClass}
             id="email"
             type="email"
             name="email"
@@ -77,31 +84,31 @@ const ContactForm = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-blue-400 text-sm font-bold mb-2" htmlFor="subject">
+          <label className={labelClass} htmlFor="subject_name">
             Subject
           </label>
           <input
-            className="shadow bg-black appearance-none border border-transparent border-b-gray-600 rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className={inputClass}
             id="subject_name"
             type="text"
             name="subject_name"
-            value={formData.subject}
+            value={formData.subject_name}
             onChange={handleChange}
             placeholder="Subject"
           />
         </div>
         <div className="mb-6">
-          <label className="block text-blue-400 text-sm font-bold mb-2" htmlFor="message">
+          <label className={labelClass} htmlFor="message">
             Message
           </label>
           <textarea
-            className="shadow h-80 bg-black appearance-none border border-transparent border-b-gray-600 rounded w-full py-2 px-3 text-white focus:outline-none focus:shadow-outline leading-tight"
+            className={textareaClass}
             id="message"
             name="message"
             value={formData.message}
             onChange={handleChange}
             placeholder="Your Message"
-          ></textarea>
+          />
         </div>
         <div className="flex items-center justify-between">
           <button

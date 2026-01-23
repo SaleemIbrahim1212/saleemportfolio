@@ -7,11 +7,11 @@ const TimeLines2 = () => {
     <li className="mb-10 ml-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <p className="mb-1 text-sm leading-none text-gray-400 dark:text-gray-500 font-bold">MSc Computer Science (Machine Learning Specialization)</p>
-        <h3 className="text-lg font-semibold text-white ">Relevant Courses </h3>
-        <p className="mb-2 text-base font-normal text-white">Foundations of Machine Learning (A) taught by Dhanya Sridhar</p>
-        <p className="mb-2 text-base font-normal text-white">Data Science (A) taught by Glen Berseth</p>
-        <p className="mb-2 text-base font-normal text-white">Representation Learning (currently taking)</p>
-        <p className="mb-4 text-base font-normal text-white">Volunteer: Lab Representative</p>
+        <h3 className="text-lg font-semibold text-white ">University of Montreal and MILA  </h3>
+        <p className="mb-2 text-base font-normal text-white">Foundations of Machine Learning taught by Dhanya Sridhar (Grade: A) </p>
+        <p className="mb-2 text-base font-normal text-white">Data Science taught by Glen Berseth (Grade: A)</p>
+        <p className="mb-2 text-base font-normal text-white">Representation Learning taught by Aaron Courville (currently taking)</p>
+        <p className="mb-4 text-base font-normal text-white">Volunteer: Lab Representative at MILA</p>
     </li>
     <li className="mb-10 ml-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

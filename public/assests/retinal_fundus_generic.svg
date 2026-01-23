@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Retinal fundus illustration">
+  <rect width="800" height="600" fill="#0b0f14"/>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7fe3c3" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#1b7b6a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0b0f14" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="disc" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd39a"/>
+      <stop offset="70%" stop-color="#e49c5a"/>
+      <stop offset="100%" stop-color="#c56c2d"/>
+    </radialGradient>
+  </defs>
+  <circle cx="400" cy="300" r="240" fill="url(#glow)"/>
+  <circle cx="520" cy="250" r="48" fill="url(#disc)"/>
+  <path d="M210 340 C290 320, 330 300, 360 280" stroke="#7fe3c3" stroke-width="6" fill="none" opacity="0.7"/>
+  <path d="M240 380 C320 360, 360 340, 400 320" stroke="#58c2a2" stroke-width="5" fill="none" opacity="0.6"/>
+  <path d="M260 420 C350 400, 400 380, 450 350" stroke="#3aa68a" stroke-width="4" fill="none" opacity="0.5"/>
+  <path d="M300 250 C360 240, 430 235, 500 240" stroke="#7fe3c3" stroke-width="4" fill="none" opacity="0.6"/>
+</svg>

@@ -73,14 +73,14 @@ const Projects = () => {
 
             <img
               className="w-full h-2/3 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
-              src="/assests/promptopiatwo.png"
-              alt="image description"
+              src="/assests/retinal_fundus_generic.svg"
+              alt="Retinal fundus illustration"
             />
              <div className="absolute h-fit bottom-4 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
                 <h3 className="text-xl text-white font-serif font-bold">
-                  Promptopia
+                  Retinal Fundus Image Classification
                 </h3>
-                <p className="mt-2 text-sm text-gray-300">Discover and share AI powered prompts </p>
+                <p className="mt-2 text-sm text-gray-300">Classifying retinal fundus images to support medical screening.</p>
               </div>
           </div>
           </a>
