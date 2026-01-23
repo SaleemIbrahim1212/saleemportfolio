@@ -19,7 +19,7 @@ const About = () => {
           <div className='flex-col lg:m-6 lg:ml-0 p-6 self-center mt-4 w-full flex flex-wrap right-0'>
             <h1 className='text-white  font-bold text-2xl md:px-4 px-0 self-center '> Hello! </h1>
             <p className='text-white text-center mt-4 py-1'>
-            I am Saleem, a computer science and psychology graduate with experience in web development and help desk/customer support. I previously worked as a <span className='text-purple-500'>Teaching and Learning Systems Assistant  </span> at <a href='https://www.wlu.ca/' target='_blank' className=' text-yellow-600'> Wilfrid Laurier University. </a> 
+            I am Saleem, a computer science and psychology graduate with experience in web development. I bring strong communication skills shaped by my experience as a product analyst. I previously worked as a <span className='text-purple-500'>Teaching and Learning Systems Assistant  </span> at <a href='https://www.wlu.ca/' target='_blank' className=' text-yellow-600'> Wilfrid Laurier University. </a> I am currently an MSc student at the University of Montreal and Mila.
                         </p>
             <p className='text-white text-center mt-4'>
               I primarily enjoy using Python to write my code and often other Javascript Frameworks such as React and Next.js to write web apps. I have also worked with Android Studio, writing full stack native <a href='https://github.com/Salzeem/KeepUp_AndroidApplication' className='text-green-300 hover:animate-pulse'>android apps in Java </a> and currently learning how to work with Koitlin!

@@ -24,36 +24,47 @@ const particleBackground = () => {
           },
           particles: {
             color: {
-              value: ["#BD10E0","#B8E986","#50E3C2","#FFD300","#E86363"]
+              value: ["#FFFFFF", "#C7DFFF", "#9FB7FF"],
             },
             number: {
               density: {
                 enable: true,
-                area: 1080,
+                area: 900,
               },
               limit: 0,
-              value: 400,
+              value: 280,
             },
             opacity: {
               animation: {
                 enable: true,
-                minimumValue: 0.05,
-                speed: 3,
+                minimumValue: 0.1,
+                speed: 0.6,
                 sync: false,
               },
               random: {
                 enable: true,
-                minimumValue: 0.05,
+                minimumValue: 0.2,
               },
-              value: 1,
+              value: 0.9,
             },
-
+            shape: {
+              type: "circle",
+            },
             size: {
               random: {
                 enable: true,
-                minimumValue: 0.5,
+                minimumValue: 0.4,
               },
-              value: 1,
+              value: 1.2,
+            },
+            move: {
+              enable: true,
+              speed: 0.2,
+              direction: "none",
+              straight: false,
+              outModes: {
+                default: "out",
+              },
             },
           },
         }}

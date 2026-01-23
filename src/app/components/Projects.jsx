@@ -28,19 +28,19 @@ const Projects = () => {
           </div>
           
           <div className="w-full max-w-lg p-2 relative">
-          <a href='https://fplpredictor.vercel.app/' target='_blank'> 
+          <a href='https://github.com/SaleemIbrahim1212' target='_blank'> 
 
             <div className= "secondgroup group">
             <img
               className="w-full h-auto rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
-              src='/assests/fantasy_web_app_demo.png'
+              src='/assests/nhl_xg_generic.svg'
               alt="image description"
             />
                 <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
                 <h3 className="text-xl text-white font-serif font-bold">
-                  FPL Prediction Model
+                  NHL XG Predictor
                 </h3>
-                <p className="mt-2 text-sm text-gray-300">Get Expected FPL Points and more! (work in progress!) </p>
+                <p className="mt-2 text-sm text-gray-300">Expected goals insights for hockey matchups. </p>
               </div>
             </div>
             </a> 
