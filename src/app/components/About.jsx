@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='relative bg-black flex justify-center p-4 m-0 ml-0 mr-0 mb-0'>
       <ParticleBackground />
-      <div id="About_Section" className='flex flex-col'>
+      <div id="About_Section" className='relative z-10 flex flex-col'>
         <h3 className='text-3xl text-blue-400 p-4 pb-0 text-center font-semibold m-4'>About</h3>
         <h1 className='text-5xl text-blue-500 text-center font-bold'> More About Me </h1>
         <span className='text-white text-center text-lg font-semibold mt-5'>

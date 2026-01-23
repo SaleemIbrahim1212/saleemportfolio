@@ -9,11 +9,12 @@ const particleBackground = () => {
   };
 
   return (
-    <div className='absolute bg-black'>
+    <div className="pointer-events-none absolute inset-0 z-0">
       <Particles
+        className="absolute inset-0"
         options={{
           background: {
-            color: "#000000",
+            color: "transparent",
           },
           fpsLimit: 60,
           interactivity: {
