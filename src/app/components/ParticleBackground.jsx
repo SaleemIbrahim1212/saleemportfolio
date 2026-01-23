@@ -19,33 +19,50 @@ const particleBackground = () => {
           interactivity: {
             detect_on: "canvas",
             events: {
+              onHover: {
+                enable: true,
+                mode: "connect",
+              },
               resize: true,
+            },
+            modes: {
+              connect: {
+                distance: 140,
+                radius: 80,
+              },
             },
           },
           particles: {
             color: {
-              value: ["#FFFFFF", "#C7DFFF", "#9FB7FF"],
+              value: ["#E8F1FF", "#BFD7FF", "#8FB8FF"],
+            },
+            links: {
+              enable: true,
+              color: "#9FB7FF",
+              distance: 140,
+              opacity: 0.45,
+              width: 1,
             },
             number: {
               density: {
                 enable: true,
-                area: 900,
+                area: 1000,
               },
               limit: 0,
-              value: 280,
+              value: 180,
             },
             opacity: {
               animation: {
                 enable: true,
                 minimumValue: 0.1,
-                speed: 0.6,
+                speed: 0.8,
                 sync: false,
               },
               random: {
                 enable: true,
                 minimumValue: 0.2,
               },
-              value: 0.9,
+              value: 0.7,
             },
             shape: {
               type: "circle",
@@ -55,11 +72,11 @@ const particleBackground = () => {
                 enable: true,
                 minimumValue: 0.4,
               },
-              value: 1.2,
+              value: 1.4,
             },
             move: {
               enable: true,
-              speed: 0.2,
+              speed: 0.45,
               direction: "none",
               straight: false,
               outModes: {
