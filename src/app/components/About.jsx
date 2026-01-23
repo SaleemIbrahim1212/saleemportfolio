@@ -1,14 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
+import ParticleBackground from './ParticleBackground';
 const About = () => {
   return (
     <div className='relative bg-black flex justify-center p-4 m-0 ml-0 mr-0 mb-0'>
-      <particleBackground />
+      <ParticleBackground />
       <div id="About_Section" className='flex flex-col'>
         <h3 className='text-3xl text-blue-400 p-4 pb-0 text-center font-semibold m-4'>About</h3>
         <h1 className='text-5xl text-blue-500 text-center font-bold'> More About Me </h1>
         <span className='text-white text-center text-lg font-semibold mt-5'>
-CS + Psychology graduate from Wilfrid Laurier University, currently pursuing an MSc in Machine Learning at Mila (UdeM). Passionate about solving real-world problems with AI and software and an interest in new technology like <span className='text-blue-800'> generative models, glfownets  and natural language processing systems.</span>
+          CS + Psychology graduate from Wilfrid Laurier University, currently pursuing an MSc in Machine Learning at Mila (UdeM). Passionate about solving real-world problems with AI and software and an interest in new technology like <span className='text-blue-800'>generative models, glfownets and natural language processing systems.</span>
+        </span>
         
         <div className='border border-gray-500 w-52 self-center mt-10' />
 
@@ -33,31 +35,31 @@ In addition to my professional pursuits, I'm quite passionate about a few person
           <div className='flex flex-col mt-14 w-11/12 mr-10 mb-5 ml-7 md:ml-0'>
             <h1 className='text-white self-center font-bold text-2xl px-4'> My Skills</h1>
             <h3 className='text-white font-bold'> Python </h3>
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div class="bg-blue-600 h-2.5 rounded-full" style={{ width: "80%" }}></div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "80%" }}></div>
             </div>
             <h3 className='text-white font-bold mt-8'> React </h3>
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div class="bg-blue-600 h-2.5 rounded-full" style={{ width: "80%" }}></div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "80%" }}></div>
             </div>
 
             <h3 className='text-white font-bold mt-8'> Java </h3>
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div class="bg-blue-600 h-2.5 rounded-full" style={{ width: "70%" }}></div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "70%" }}></div>
             </div>
 
             <h3 className='text-white font-bold mt-8'> C/C++ </h3>
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div class="bg-blue-600 h-2.5 rounded-full" style={{ width: "60%" }}></div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "60%" }}></div>
             </div>
 
             <h3 className='text-white font-bold mt-8'> Firebase </h3>
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div class="bg-blue-600 h-2.5 rounded-full" style={{ width: "83%" }}></div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "83%" }}></div>
             </div>
             <h3 className='text-white font-bold mt-8'> Docker </h3>
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div class="bg-blue-600 h-2.5 rounded-full" style={{ width: "30%" }}></div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "30%" }}></div>
             </div>
           </div>
         </div>
