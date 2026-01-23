@@ -11,12 +11,12 @@ const Projects = () => {
         <div className="w-full max-w-lg p-2 relative">
           <a href='https://github.com/SaleemIbrahim1212/movieproj' target='_blank'> 
         <div className="group">
-              <img
-                className="w-full h-auto rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
-                src='/assests/mugiwara_demo.png'
-                alt="image description"
-                href
-              />
+            <img
+              className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
+              src='/assests/mugiwara_demo.png'
+              alt="image description"
+              href
+            />
               <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0  group-hover:opacity-100 transition duration-300 ease-in-out">
                 <h3 className="text-xl text-white font-serif font-bold">
                   Mugiwara
@@ -32,7 +32,7 @@ const Projects = () => {
 
             <div className= "secondgroup group">
             <img
-              className="w-full h-auto rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+              className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
               src='/assests/nhl_xg_generic.svg'
               alt="image description"
             />
@@ -53,7 +53,7 @@ const Projects = () => {
           <div className= "thirdgroup group">
 
             <img
-              className="w-full h-2/3 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+              className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
               src="/assests/keepuplogotest.png"
               alt="image description"
             />
@@ -72,10 +72,13 @@ const Projects = () => {
           <div className= "fourthgroup group">
 
             <img
-              className="w-full h-2/3 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+              className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
               src="/assests/retinal_fundus_generic.svg"
               alt="Retinal fundus illustration"
             />
+            <div className="absolute left-3 top-3 rounded bg-gray-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+              Computer Vision
+            </div>
              <div className="absolute h-fit bottom-4 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
                 <h3 className="text-xl text-white font-serif font-bold">
                   Retinal Fundus Image Classification

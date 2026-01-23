@@ -8,23 +8,23 @@ const About = () => {
         <h3 className='text-3xl text-blue-400 p-4 pb-0 text-center font-semibold m-4'>About</h3>
         <h1 className='text-5xl text-blue-500 text-center font-bold'> More About Me </h1>
         <span className='text-white text-center text-lg font-semibold mt-5'>
-          I am a computer science and psychology graduate from Wilfrid Laurier University with a passion for solving problems
-        </span>
+CS + Psychology graduate from Wilfrid Laurier University, currently pursuing an MSc in Machine Learning at Mila (UdeM). Passionate about solving real-world problems with AI and software.        </span>
         <span className='text-white text-center text-lg font-semibold mt-2'>
-          and an interest in new technology like <span className='text-blue-800'> machine learning and natural language processing systems.</span>
+          and an interest in new technology like <span className='text-blue-800'> generative models, glfownets  and natural language processing systems.</span>
         </span>
         <div className='border border-gray-500 w-52 self-center mt-10' />
 
         <div className='w-full grid md:grid-cols-2 grid-cols-1 md:m-10 ml-2 m-0 h-full'>
           <div className='flex-col lg:m-6 lg:ml-0 p-6 self-center mt-4 w-full flex flex-wrap right-0'>
             <h1 className='text-white  font-bold text-2xl md:px-4 px-0 self-center '> Hello! </h1>
-            <p className='text-white text-center mt-4 py-1'>
-            I am Saleem, a computer science and psychology graduate with experience in web development. I bring strong communication skills shaped by my experience as a product analyst. I previously worked as a <span className='text-purple-500'>Teaching and Learning Systems Assistant  </span> at <a href='https://www.wlu.ca/' target='_blank' className=' text-yellow-600'> Wilfrid Laurier University. </a> I am currently an MSc student at the University of Montreal and Mila.
-                        </p>
+    <p className='text-white text-center mt-4 py-1'>
+      I am Saleem, a Computer Science and Psychology graduate with experience in web development. I bring strong communication skills shaped by my work as a product analyst. I previously worked as a <span className='text-purple-500'>Product Analyst</span> at <a href='https://www.d2l.com/' target='_blank' rel='noopener noreferrer' className='text-yellow-600'>D2L</a>. I am currently an MSc student at the University of Montreal and Mila.
+    </p>
+
             <p className='text-white text-center mt-4'>
               I primarily enjoy using Python to write my code and often other Javascript Frameworks such as React and Next.js to write web apps. I have also worked with Android Studio, writing full stack native <a href='https://github.com/Salzeem/KeepUp_AndroidApplication' className='text-green-300 hover:animate-pulse'>android apps in Java </a> and currently learning how to work with Koitlin!
             </p>
-            <p className='text-white text-center mt-4 '> One of my main interests is in machine learning and artificial intelligence. I recently completed a <a href='https://coursera.org/share/0aa582dd3e07dc915b74373d503bc0f0' target='_blank' className='text-red-300 hover:animate-pulse'> machine learning specialization </a> at Coursera and I am currently working to complete the Deep Learning Specialization there!
+            <p className='text-white text-center mt-4 '> One of my main interests is in machine learning and artificial intelligence. I recently completed a <a href='https://coursera.org/share/0aa582dd3e07dc915b74373d503bc0f0' target='_blank' className='text-red-300 hover:animate-pulse'> machine learning specialization </a> at Coursera which highly got me interested in Machine Learning and its application to medecine 
             </p>
             <p className='text-white text-center mt-4 '> 
            
