@@ -28,7 +28,7 @@ const Projects = () => {
           </div>
           
           <div className="w-full max-w-lg p-2 relative">
-          <a href='https://github.com/SaleemIbrahim1212' target='_blank'> 
+          <a href='https://saleemibrahim1212.github.io/blogpost-template/' target='_blank'> 
 
             <div className= "secondgroup group">
             <img
@@ -68,7 +68,7 @@ const Projects = () => {
           </div>
 
           <div className="w-full max-w-lg p-2 relative">
-            <a className='https://github.com/SaleemIbrahim1212?tab=repositories' target='_blank'>
+            <a href='https://github.com/SaleemIbrahim1212/Retinal-Fundus-Prediction' target='_blank'>
           <div className= "fourthgroup group">
 
             <img

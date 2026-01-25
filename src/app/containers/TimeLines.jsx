@@ -8,7 +8,7 @@ const TimeLines = () => {
     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <p className="mb-1 text-sm leading-none text-gray-400 dark:text-gray-500 font-bold">Product Analyst January 2024v- May 2025 </p>
         <h3 className="text-lg font-semibold text-white ">D2L</h3>
-        <p className="mb-4 text-base font-normal text-white">Focused on product insights and analysis to support decision-making.</p>
+        <p className="mb-4 text-base font-normal text-white">Supported data-driven product improvements by validating expected behavior, documenting reproducible bugs with clear technical context, and building SQL queries to diagnose platform issues and surface actionable insights.</p>
 </li>
     <li className="mb-10 ml-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
