@@ -16,9 +16,9 @@ const ContactForm = () => {
               Let&apos;s build something meaningful
             </h2>
             <p className="mt-3 max-w-xl text-sm text-slate-300">
-              I&apos;m always open to new collaborations, freelance work, or
+              I&apos;m always open to new collaborations or
               just a great conversation. Pick your channel below and I&apos;ll
-              respond quickly.
+              respond quickly :D 
             </p>
           </div>
 
@@ -63,13 +63,13 @@ const ContactForm = () => {
                 saleemibrahim1212
               </a>
               <p className="mt-2 text-xs text-slate-400">
-                Explore recent experiments and code samples.
+                Explore what i have been working on.
               </p>
             </div>
           </div>
 
           <div className="rounded-full border border-blue-400/20 bg-blue-500/10 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-blue-200">
-            Available for 2026 projects
+            Looking for ML/AI internships 2026
           </div>
         </div>
       </div>
