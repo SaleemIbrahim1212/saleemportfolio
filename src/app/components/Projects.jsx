@@ -111,6 +111,52 @@ const Projects = () => {
               </div>
             </a>
           </div>
+
+          <div className="w-full max-w-lg p-2 relative">
+            <a href="https://github.com/SaleemIbrahim1212/Kaggle-Beer-Quality-Prediction" target="_blank" rel="noreferrer">
+              <div className="group">
+                <img
+                  className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
+                  src="/assests/beer_glass.svg"
+                  alt="Beer quality prediction project"
+                />
+                <div className="absolute left-3 top-3 rounded bg-amber-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+                  ML
+                </div>
+                <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                  <h3 className="text-xl text-white font-serif font-bold">
+                    Beer Quality Prediction
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-300">
+                    Predicting beer quality from chemical features.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="w-full max-w-lg p-2 relative">
+            <a href="#" target="_blank" rel="noreferrer">
+              <div className="group">
+                <img
+                  className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
+                  src="/assests/rag_blog.svg"
+                  alt="RAG-based research paper to blog converter"
+                />
+                <div className="absolute left-3 top-3 rounded bg-indigo-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+                  Ongoing
+                </div>
+                <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                  <h3 className="text-xl text-white font-serif font-bold">
+                    RAG Paper-to-Blog Converter
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-300">
+                    RAG system that turns research papers into readable blog posts.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
