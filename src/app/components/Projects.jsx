@@ -94,8 +94,8 @@ const Projects = () => {
               <div className="group">
                 <img
                   className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
-                  src="/assests/mainlogo.png"
-                  alt="Multimodal video captioning project"
+                  src="/assests/soccer_ball.svg"
+                  alt="Soccer video captioning project"
                 />
                 <div className="absolute left-3 top-3 rounded bg-blue-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
                   Ongoing
