@@ -88,6 +88,29 @@ const Projects = () => {
           </div>
           </a>
           </div>
+
+          <div className="w-full max-w-lg p-2 relative">
+            <a href="https://www.overleaf.com/read/fbdjgmydksgp#9b4ddd" target="_blank" rel="noreferrer">
+              <div className="group">
+                <img
+                  className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
+                  src="/assests/mainlogo.png"
+                  alt="Multimodal video captioning project"
+                />
+                <div className="absolute left-3 top-3 rounded bg-blue-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+                  Ongoing
+                </div>
+                <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                  <h3 className="text-xl text-white font-serif font-bold">
+                    Soccer Video Captioning
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-300">
+                    Ongoing work to generate captions from soccer match video.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
