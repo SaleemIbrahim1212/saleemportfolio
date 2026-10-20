@@ -1,45 +1,24 @@
-import React from 'react'
-import {FaGithubAlt} from 'react-icons/fa'
-import {AiFillLinkedin} from 'react-icons/ai'
-import {AiOutlineDown} from 'react-icons/ai'
-import NavigationBar from './NavigationBar'
-import Link from 'next/link'
-
-
-const Header = () => {
-  return (
-
-<div className=' relative w-full bg-transparent flex flex-col justify-between self-center'>
-
-  <NavigationBar/>
-  <div className='flex flex-col items-center mt-20 md:mt-28 mb-14 px-6 text-center justify-between'>
-  <span className='text-blue-400 text-sm font-semibold uppercase tracking-widest'>Machine learning · Research · Software</span>
-  <h1 className='text-4xl md:text-6xl font-bold mt-5 text-white'>
-    <span className='text-blue-400'> Saleem Ibrahim</span>
-
-  </h1>
-  <p className='mt-6 text-xl md:text-2xl text-white'>Research Intern at WatchOut / Adonite</p>
-  <p className='mt-4 max-w-2xl text-lg leading-relaxed text-gray-300'>Building multi-turn diagnostic systems that ask better questions, reason over competing hypotheses, and reduce uncertainty.</p>
-  <p className='mt-4 text-gray-400'>M.Sc. Computer Science (Machine Learning) · Université de Montréal</p>
-  <div className='flex space-x-4 justify-between'>
-  <ul className='flex space-x-4 mt-4'>
-  <Link href='https://github.com/saleemibrahim1212' target='_blank' aria-label='GitHub' rel='noopener noreferrer'> <li> <FaGithubAlt size={30} className="fill-white"/></li></Link>
-    <Link href="https://www.linkedin.com/in/saleem-ibrahim-0162a8121/" target='_blank' aria-label='LinkedIn' rel='noopener noreferrer' >  <li> <AiFillLinkedin size={30} className='fill-white'/></li></Link>
-    </ul>
+import NavigationBar from './NavigationBar';
+export default function Header() {
+  return <header id="Home" className="site-header">
+    <NavigationBar />
+    <div className="hero">
+      <div>
+        <p className="eyebrow">Machine learning researcher & developer</p>
+        <h1>Saleem<br /><span>Ibrahim.</span></h1>
+        <p className="hero-lead">Learning to ask<br className="hidden md:block" /> better questions.</p>
+        <p className="hero-description">I study how intelligent systems gather information, reason through uncertainty, and learn from multimodal data.</p>
+        <div className="hero-actions"><a className="button-primary" href="#Experience_Section">Explore my research <span aria-hidden="true">&#8599;</span></a><a className="text-link" href="/Saleem-Ibrahim-Resume.pdf" target="_blank" rel="noopener noreferrer">View CV <span aria-hidden="true">&#8599;</span></a></div>
+      </div>
+      <aside className="research-note" aria-label="Current research focus">
+        <div className="note-top"><span className="status-dot" /> Currently researching <span className="note-number">01 /</span></div>
+        <h2>Reasoning through<br />conversation.</h2>
+        <p>Multi-turn diagnostic systems that ask targeted questions and refine competing hypotheses.</p>
+        <div className="research-flow" aria-label="Hypothesize, ask, update, repeat"><span>Hypothesize</span><span aria-hidden="true">&#8594;</span><span>Ask</span><span aria-hidden="true">&#8594;</span><span>Update</span></div>
+        <div className="note-topics"><span>Bayesian experimental design</span><span>Reinforcement learning</span><span>Information gain</span></div>
+        <div className="note-footer"><strong>WatchOut / Adonite</strong><span>Research Intern · May 2026 - Present</span></div>
+      </aside>
     </div>
-  <div className='flex p-6 rounded-b-md '>
-        <Link href='#Experience_Section' > <button className='border border-white text-white m-3 p-3 rounded-full'> Current Research </button></Link>
-        <Link href='#Projects_Section'><button className='border border-white text-white m-3 p-3 rounded-full' >My Works </button>  </Link>
-  </div>
-</div>
-<div className='flex flex-auto mt-8 animate-bounce'>
-<Link href='#About_Section' className='font-sans ml-3 text-white mb-10'> Scroll down</Link>
-<Link href='#About_Section' className='text-blue-400 ml-1 mt-2 hover: cursor-pointer'><AiOutlineDown/>   </Link>
-</div>
-</div>
-
-
-  )
+    <div className="affiliation-strip"><span>M.Sc. Computer Science <span className="muted">/ Machine Learning</span></span><span>Université de Montréal</span><span className="muted">Montréal, QC</span></div>
+  </header>;
 }
-
-export default Header

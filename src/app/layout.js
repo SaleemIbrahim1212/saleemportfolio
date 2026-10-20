@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import './globals.css'
-import { Open_Sans } from 'next/font/google'
-const inter = Open_Sans({ subsets: ['latin'] })
+
+
 export const metadata = {
   title: 'Saleem Ibrahim | Machine Learning Research',
   description: 'Research Intern at WatchOut / Adonite and M.Sc. student at Université de Montréal. Exploring multi-turn reasoning, reinforcement learning, and multimodal machine learning.',
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       </Head>
 
 
-      <body className={inter.className}>{children}</body>
+      <body >{children}</body>
     </html>
   )
 }

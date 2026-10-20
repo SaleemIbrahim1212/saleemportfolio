@@ -11,7 +11,8 @@ const otherProjects = [
 ];
 export default function Projects() {
   return <section id="Projects_Section" className="relative mx-auto w-full max-w-6xl px-6 py-16">
-    <h2 className="text-center text-3xl font-bold text-blue-400">Selected Projects</h2>
+    <p className="eyebrow section-label">03 / Selected work</p>
+    <h2 className="section-title text-3xl font-bold text-blue-400">Selected Projects</h2>
     <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-gray-300">Recent work in multimodal learning, sports analytics, and computer vision.</p>
     <div className="mt-10 grid gap-6 md:grid-cols-2">
       {projects.map((project, index) => <article key={project.title} className={`overflow-hidden rounded-xl border border-gray-700 bg-gray-950 ${index === 0 ? 'md:col-span-2 md:grid md:grid-cols-2 border-blue-500/50' : ''}`}>
