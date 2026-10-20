@@ -1,76 +1,27 @@
-import Link from 'next/link';
-import React from 'react';
-import ParticleBackground from './ParticleBackground';
-const About = () => {
-  return (
-    <div className='relative bg-black flex justify-center p-4 m-0 ml-0 mr-0 mb-0'>
-      <ParticleBackground />
-      <div id="About_Section" className='relative z-10 flex flex-col'>
-        <h3 className='text-3xl text-blue-400 p-4 pb-0 text-center font-semibold m-4'>About</h3>
-        <h1 className='text-5xl text-blue-500 text-center font-bold'> More About Me </h1>
-        <span className='text-white text-center text-lg font-semibold mt-5'>
-          CS + Psychology graduate from Wilfrid Laurier University, currently pursuing an MSc in Machine Learning at Mila (UdeM). Passionate about solving real-world problems with AI and software and an interest in new technology like <span className='text-blue-800'>generative models, glfownets and natural language processing systems.</span>
-        </span>
-        
-        <div className='border border-gray-500 w-52 self-center mt-10' />
-
-        <div className='w-full grid md:grid-cols-2 grid-cols-1 md:m-10 ml-2 m-0 h-full'>
-          <div className='flex-col lg:m-6 lg:ml-0 p-6 self-center mt-4 w-full flex flex-wrap right-0'>
-            <h1 className='text-white  font-bold text-2xl md:px-4 px-0 self-center '> Hello! </h1>
-    <p className='text-white text-center mt-4 py-1'>
-      I am Saleem, a Computer Science and Psychology graduate with experience in web development. I bring strong communication skills shaped by my work as a product analyst. I previously worked as a <span className='text-purple-500'>Product Analyst</span> at <a href='https://www.d2l.com/' target='_blank' rel='noopener noreferrer' className='text-yellow-600'>D2L</a>. I am currently an MSc student at the University of Montreal and Mila.
-    </p>
-
-            <p className='text-white text-center mt-4'>
-              I primarily enjoy using Python to write my code and often other Javascript Frameworks such as React and Next.js to write web apps. I have also worked with Android Studio, writing full stack native <a href='https://github.com/Salzeem/KeepUp_AndroidApplication' className='text-green-300 hover:animate-pulse'>android apps in Java </a> and currently learning how to work with Koitlin!
-            </p>
-            <p className='text-white text-center mt-4 '> One of my main interests is in machine learning and artificial intelligence. I recently completed a <a href='https://coursera.org/share/0aa582dd3e07dc915b74373d503bc0f0' target='_blank' className='text-red-300 hover:animate-pulse'> machine learning specialization </a> at Coursera which highly got me interested in Machine Learning and its application to medecine 
-            </p>
-            <p className='text-white text-center mt-4 '> 
-           
-In addition to my professional pursuits, I'm quite passionate about a few personal interests. For the past couple of years, I've been lacing up my running shoes regularly. On the weekends, you'll often find me eagerly following Chelsea's soccer matches. I'm also an ardent bookworm, and there's nothing quite like getting lost in a good read. <a  href='https://radial-fisher-ac1.notion.site/dd5ea14a90ee4386a5b62de692611393?v=94b39d214dd243aabd143a4fb6d74d2e&pvs=4' target='_blank' className='text-blue-500 hover:animate-pulse'>Here is my booklist so far </a>
-            </p>
-          </div>
-
-          <div className='flex flex-col mt-14 w-11/12 mr-10 mb-5 ml-7 md:ml-0'>
-            <h1 className='text-white self-center font-bold text-2xl px-4'> My Skills</h1>
-            <h3 className='text-white font-bold'> Python </h3>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "80%" }}></div>
-            </div>
-            <h3 className='text-white font-bold mt-8'> React </h3>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "80%" }}></div>
-            </div>
-
-            <h3 className='text-white font-bold mt-8'> Java </h3>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "70%" }}></div>
-            </div>
-
-            <h3 className='text-white font-bold mt-8'> C/C++ </h3>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "60%" }}></div>
-            </div>
-
-            <h3 className='text-white font-bold mt-8'> Firebase </h3>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "83%" }}></div>
-            </div>
-            <h3 className='text-white font-bold mt-8'> Docker </h3>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "30%" }}></div>
-            </div>
-          </div>
-        </div>
-
-        <div className='grid md:grid-cols-2 grid-cols-1 w-full self-center'>
-          <Link className='mb-2' href="https://drive.google.com/file/d/1snaW1R9v7Td2UArQIpz2KNEXu7hf-PUi/view?usp=sharing" target='_blank'> <button className='font-bold ml-7 md:ml-14 lg:mb-0 sm:mb-5 self-center border border-blue-300 bg-black text-white w-11/12 h-16'> Check out My Resume! </button> </Link>
-          <Link href = "#Message_Form"> <button className=' font-bold ml-7 md:ml-14 self-center lg:mt-0 sm:mt-6 bg-gray-200 text-black w-11/12 h-16'> Send Me a Message! </button></Link>
-        </div>
+const skills = {
+  'Machine learning & deep learning': 'PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, Matplotlib, Jupyter',
+  'Programming': 'Python, Java, C/C++, JavaScript; familiar with Rust, Prolog, and Kotlin',
+  'Data & infrastructure': 'SQL, MongoDB, Docker, Git, Linux/Unix, AWS, Google Cloud',
+  'Observability': 'Kibana, Elasticsearch, Honeycomb',
+  'Web & backend': 'React, Next.js, Django, Firebase',
+};
+export default function About() {
+  return <section id="About_Section" className="relative mx-auto w-full max-w-6xl px-6 py-16">
+    <h2 className="text-center text-3xl font-bold text-blue-400">About Me</h2>
+    <div className="mt-10 grid gap-12 md:grid-cols-2">
+      <div className="space-y-5 text-lg leading-relaxed text-gray-300">
+        <p>I’m Saleem, a machine learning researcher and developer with a background in computer science and psychology. I’m pursuing an M.Sc. in Computer Science, specializing in machine learning, at Université de Montréal.</p>
+        <p>At WatchOut / Adonite, I investigate how diagnostic systems can gather useful information through conversation. My current work brings together Bayesian experimental design, reinforcement learning, and evaluation of multi-turn reasoning.</p>
+        <p>My projects span multimodal soccer video captioning, NHL expected-goals analytics, and retinal image classification. Previously, I worked as a Product Analyst at D2L, using SQL, logs, and traces to investigate production issues and inform product improvements.</p>
+        <p>At Mila, I serve as a Lab Representative and participate in Neuro-AI and Reinforcement Learning reading groups. Away from research, I enjoy running, reading, and following Chelsea.</p>
+      </div>
+      <div><h3 className="text-2xl font-semibold text-white">Technical Skills</h3>
+        <dl className="mt-5 space-y-5">{Object.entries(skills).map(([category, tools]) => <div key={category} className="border-l-2 border-blue-500 pl-4"><dt className="font-semibold text-blue-300">{category}</dt><dd className="mt-1 leading-relaxed text-gray-300">{tools}</dd></div>)}</dl>
       </div>
     </div>
-  );
+    <div className="mt-10 flex flex-wrap gap-4">
+      <a href="/Saleem-Ibrahim-Resume.pdf" target="_blank" rel="noopener noreferrer" className="rounded-full border border-blue-400 px-6 py-3 font-semibold text-white hover:bg-blue-950">View Resume</a>
+      <a href="#Message_Form" className="rounded-full bg-blue-400 px-6 py-3 font-semibold text-black hover:bg-blue-300">Get in Touch</a>
+    </div>
+  </section>;
 }
-
-export default About;

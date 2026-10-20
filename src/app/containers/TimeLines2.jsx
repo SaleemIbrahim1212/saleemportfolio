@@ -1,34 +1,21 @@
-'use client'
-import React from 'react'
-const TimeLines2 = () => {
-  return (
-
-<ol className="relative border-l border-gray-200 dark:border-gray-700 md:ml-9 md:mr-11 m-0 mt-5">                  
-    <li className="mb-10 ml-4">
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <p className="mb-1 text-sm leading-none text-gray-400 dark:text-gray-500 font-bold">MSc Computer Science (Machine Learning Specialization)</p>
-        <h3 className="text-lg font-semibold text-white ">University of Montreal and MILA  </h3>
-        <p className="mb-2 text-base font-normal text-white">Foundations of Machine Learning taught by Dhanya Sridhar (Grade: A) </p>
-        <p className="mb-2 text-base font-normal text-white">Data Science taught by Glen Berseth (Grade: A)</p>
-        <p className="mb-2 text-base font-normal text-white">Representation Learning taught by Aaron Courville (currently taking)</p>
-        <p className="mb-4 text-base font-normal text-white">Volunteer: Lab Representative at MILA</p>
-    </li>
-    <li className="mb-10 ml-4">
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <p className="mb-1 text-sm leading-none text-gray-400 dark:text-gray-500 font-bold">Wilfrid Laurier University: Sep 2018- Jun 2023 </p>
-        <h3 className="text-lg font-semibold text-white ">BSc Computer Science and Psychology (Double Major) </h3>
-        <p className="mb-4 text-base font-normal text-white">GPA: 3.3: Professional Experience Stream</p>
-    </li>
-    <li className="mb-10 ml-4">
-    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <p className="mb-1 text-sm leading-none text-gray-400 dark:text-gray-500 font-bold">Stanford University and Deeplearning.ai, Jun 2023 - Sep 2023 </p>
-        <h3 className="text-lg font-semibold text-white ">Machine Learning Specialization </h3>
-        <p className="mb-4 text-base font-normal text-white">Remote online, delivered through Coursera</p>
-
-    </li>
-
-</ol>
-  )
+const education = [
+  { date: 'September 2025 - June 2027 (expected)', title: 'M.Sc. Computer Science (Machine Learning)', place: 'Université de Montréal · Montréal, QC', detail: 'GPA: 4.0. Mila Lab Representative since 2025, supporting student engagement and communication with administration. Participant in the Neuro-AI and Reinforcement Learning reading groups.' },
+  { date: 'June - August 2023', title: 'Machine Learning Specialization', place: 'Stanford University & DeepLearning.AI', detail: 'Online specialization delivered through Coursera.' },
+  { date: 'August 2018 - June 2023', title: 'Honours B.Sc. Computer Science & Psychology', place: 'Wilfrid Laurier University', detail: 'Double major. Dean’s Honor Roll: 2019/2020, 2021/2022, and 2022/2023.' },
+];
+export default function TimeLines2() {
+  return <div>
+    <ol className="relative mt-5 border-l border-gray-700">
+      {education.map(item => <li key={item.title} className="mb-10 ml-5">
+        <p className="text-sm font-semibold text-gray-400">{item.date}</p>
+        <h3 className="mt-2 text-xl font-semibold text-white">{item.title}</h3>
+        <p className="mt-2 text-blue-300">{item.place}</p>
+        <p className="mt-3 leading-relaxed text-gray-300">{item.detail}</p>
+      </li>)}
+    </ol>
+    <div className="rounded-xl border border-gray-700 p-5">
+      <h3 className="font-semibold text-white">Responsible AI Scholarship · 2025</h3>
+      <p className="mt-2 leading-relaxed text-gray-300">Selected by RAI group for a conference scholarship recognizing academic excellence and commitment to ethical, socially responsible AI.</p>
+    </div>
+  </div>;
 }
-
-export default TimeLines2

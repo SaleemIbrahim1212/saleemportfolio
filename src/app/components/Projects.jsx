@@ -1,166 +1,36 @@
-import React from 'react';
-const Projects = () => {
-  return (
-    <div id="Projects_Section" className=' relative flex flex-col bg-black'>
-      <h3 className='text-3xl text-blue-400 p-4 pb-0 text-center font-semibold m-4'>Projects</h3>
-      <span className='text-white text-center text-lg font-semibold mt-5'>Here are some recent projects I have worked on and am currently working on!</span>
-      <div className='border mt-4 border-gray-500 w-52 self-center md:mt-10' />
-
-      <div className='grid place-items-center min-h-screen w-full self-center grid-cols-1'>
-        <div className="p-4 max-w-5xl gap-4 grid md:grid-cols-2 grid-cols-1 m-4">
-        <div className="w-full max-w-lg p-2 relative">
-          <a href='https://github.com/SaleemIbrahim1212/movieproj' target='_blank'> 
-        <div className="group">
-            <img
-              className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
-              src='/assests/mugiwara_demo.png'
-              alt="image description"
-              href
-            />
-              <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0  group-hover:opacity-100 transition duration-300 ease-in-out">
-                <h3 className="text-xl text-white font-serif font-bold">
-                  Mugiwara
-                </h3>
-                <p className="mt-2 text-sm text-gray-300">Discover where to find tv shows and movies</p>
-              </div>
-              </div>
-              </a>
-          </div>
-          
-          <div className="w-full max-w-lg p-2 relative">
-          <a href='https://saleemibrahim1212.github.io/blogpost-template/' target='_blank'> 
-
-            <div className= "secondgroup group">
-            <img
-              className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
-              src='/assests/nhl_xg_generic.svg'
-              alt="image description"
-            />
-                <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                <h3 className="text-xl text-white font-serif font-bold">
-                  NHL XG Predictor
-                </h3>
-                <p className="mt-2 text-sm text-gray-300">Expected goals insights for hockey matchups. </p>
-              </div>
-            </div>
-            </a> 
-
-          </div>
-
-          <div className="w-full max-w-lg p-2 relative">
-
-            <a href='https://github.com/Salzeem/KeepUp_AndroidApplication' target='_blank'> 
-          <div className= "thirdgroup group">
-
-            <img
-              className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
-              src="/assests/keepuplogotest.png"
-              alt="image description"
-            />
-                    <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                <h3 className="text-xl text-white font-serif font-bold">
-                  Keep Up!
-                </h3>
-                <p className="mt-2 text-sm text-gray-300">A student and instructor management tool to keep up with studies!</p>
-              </div>
-          </div>
-          </a>
-          </div>
-
-          <div className="w-full max-w-lg p-2 relative">
-            <a href='https://github.com/SaleemIbrahim1212/Retinal-Fundus-Prediction' target='_blank'>
-          <div className= "fourthgroup group">
-
-            <img
-              className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
-              src="/assests/retinal_fundus_generic.svg"
-              alt="Retinal fundus illustration"
-            />
-            <div className="absolute left-3 top-3 rounded bg-gray-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
-              Computer Vision
-            </div>
-             <div className="absolute h-fit bottom-4 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                <h3 className="text-xl text-white font-serif font-bold">
-                  Retinal Fundus Image Classification
-                </h3>
-                <p className="mt-2 text-sm text-gray-300">Classifying retinal fundus images to support medical screening.</p>
-              </div>
-          </div>
-          </a>
-          </div>
-
-          <div className="w-full max-w-lg p-2 relative">
-            <a href="https://www.overleaf.com/read/fbdjgmydksgp#9b4ddd" target="_blank" rel="noreferrer">
-              <div className="group">
-                <img
-                  className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
-                  src="/assests/soccer_ball.svg"
-                  alt="Soccer video captioning project"
-                />
-                <div className="absolute left-3 top-3 rounded bg-blue-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
-                  Ongoing
-                </div>
-                <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                  <h3 className="text-xl text-white font-serif font-bold">
-                    Soccer Video Captioning
-                  </h3>
-                  <p className="mt-2 text-sm text-gray-300">
-                    Ongoing work to generate captions from soccer match video.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div className="w-full max-w-lg p-2 relative">
-            <a href="https://github.com/SaleemIbrahim1212/Kaggle-Beer-Quality-Prediction" target="_blank" rel="noreferrer">
-              <div className="group">
-                <img
-                  className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
-                  src="/assests/beer_glass.svg"
-                  alt="Beer quality prediction project"
-                />
-                <div className="absolute left-3 top-3 rounded bg-amber-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
-                  ML
-                </div>
-                <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                  <h3 className="text-xl text-white font-serif font-bold">
-                    Beer Quality Prediction
-                  </h3>
-                  <p className="mt-2 text-sm text-gray-300">
-                    Predicting beer quality from chemical features.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div className="w-full max-w-lg p-2 relative">
-            <a href="#" target="_blank" rel="noreferrer">
-              <div className="group">
-                <img
-                  className="h-64 w-full rounded-lg object-cover cursor-pointer filter grayscale hover:grayscale-0"
-                  src="/assests/rag_blog.svg"
-                  alt="RAG-based research paper to blog converter"
-                />
-                <div className="absolute left-3 top-3 rounded bg-indigo-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
-                  Ongoing
-                </div>
-                <div className="absolute h-fit bottom-2 left-2 right-2 px-4 py-2 bg-gray-800 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                  <h3 className="text-xl text-white font-serif font-bold">
-                    RAG Paper-to-Blog Converter
-                  </h3>
-                  <p className="mt-2 text-sm text-gray-300">
-                    RAG system that turns research papers into readable blog posts.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
+const projects = [
+  { title: 'SoccerNet Dense Video Captioning', date: '2026', image: 'soccer_ball.svg', tags: 'PyTorch · Transformers · Multimodal Learning · Contrastive Learning', description: 'Replaced NetVLAD temporal aggregation with transformer-based video representations and audio-visual modeling. Investigated contrastive pretraining with frozen language embeddings and modality-specific cross-attention.', result: 'Improved CIDEr over the original SoccerNet baseline while reducing model size. Evaluated transformer and dual-LSTM decoders through controlled ablations.', href: 'https://www.overleaf.com/read/fbdjgmydksgp#9b4ddd', link: 'Read project report' },
+  { title: 'NHL Expected Goals Analytics', date: 'December 2025', image: 'nhl_xg_generic.svg', tags: 'Scikit-learn · Flask · Docker · Streamlit', description: 'Built an end-to-end pipeline for NHL shot quality, from ingestion and feature engineering to model evaluation using ROC/AUC and calibration analysis.', result: 'Compared boosted trees, neural networks, logistic regression, and SVMs. Served predictions through a Dockerized Flask API and an interactive Streamlit dashboard.', href: 'https://saleemibrahim1212.github.io/blogpost-template/', link: 'Explore project' },
+  { title: 'Diabetic Retinopathy Classification', date: 'October 2025', image: 'retinal_fundus_generic.svg', tags: 'Python · PyTorch · CNNs · Transfer Learning', description: 'Built a five-class retinal disease severity classifier using fundus images, from no diabetic retinopathy to proliferative disease.', result: 'Addressed class imbalance with augmentation, evaluated custom CNNs and ResNet transfer learning, and benchmarked against SVMs and random forests.', href: 'https://github.com/SaleemIbrahim1212/Retinal-Fundus-Prediction', link: 'View code' },
+];
+const otherProjects = [
+  { title: 'Mugiwara', description: 'Discover where to find TV shows and movies.', href: 'https://github.com/SaleemIbrahim1212/movieproj' },
+  { title: 'Keep Up!', description: 'An Android student and instructor management app.', href: 'https://github.com/Salzeem/KeepUp_AndroidApplication' },
+  { title: 'Beer Quality Prediction', description: 'Predicting beer quality from chemical features.', href: 'https://github.com/SaleemIbrahim1212/Kaggle-Beer-Quality-Prediction' },
+  { title: 'RAG Paper-to-Blog Converter', description: 'Ongoing work turning research papers into readable blog posts.' },
+];
+export default function Projects() {
+  return <section id="Projects_Section" className="relative mx-auto w-full max-w-6xl px-6 py-16">
+    <h2 className="text-center text-3xl font-bold text-blue-400">Selected Projects</h2>
+    <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-gray-300">Recent work in multimodal learning, sports analytics, and computer vision.</p>
+    <div className="mt-10 grid gap-6 md:grid-cols-2">
+      {projects.map((project, index) => <article key={project.title} className={`overflow-hidden rounded-xl border border-gray-700 bg-gray-950 ${index === 0 ? 'md:col-span-2 md:grid md:grid-cols-2 border-blue-500/50' : ''}`}>
+        <img src={`/assests/${project.image}`} alt="" className="h-52 w-full bg-gray-900 object-contain md:h-64" />
+        <div className="p-6">
+          <p className="text-sm font-semibold text-blue-300">{index === 0 ? 'Featured research · ' : ''}{project.date}</p>
+          <h3 className="mt-2 text-2xl font-bold text-white">{project.title}</h3>
+          <p className="mt-3 text-sm text-blue-300">{project.tags}</p>
+          <p className="mt-4 leading-relaxed text-gray-300">{project.description}</p>
+          <p className="mt-3 leading-relaxed text-gray-300">{project.result}</p>
+          <a href={project.href} target="_blank" rel="noopener noreferrer" className="mt-5 inline-block font-semibold text-blue-300 underline underline-offset-4 hover:text-white">{project.link}<span className="sr-only">: {project.title}</span></a>
         </div>
-      </div>
+      </article>)}
     </div>
-  );
+    <h3 className="mt-12 text-2xl font-semibold text-white">More Projects</h3>
+    <div className="mt-5 grid gap-4 sm:grid-cols-2">{otherProjects.map(project => <article key={project.title} className="rounded-xl border border-gray-800 p-5">
+      <h4 className="text-lg font-semibold text-white">{project.title}</h4>
+      <p className="mt-2 text-gray-300">{project.description}</p>
+      {project.href && <a href={project.href} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-blue-300 underline underline-offset-4">View code<span className="sr-only">: {project.title}</span></a>}
+    </article>)}</div>
+  </section>;
 }
-
-export default Projects;

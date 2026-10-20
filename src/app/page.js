@@ -8,13 +8,13 @@ import ParticleBackground from './components/ParticleBackground';
 
 export default function Home() {
   return (
-    
+
     <main className="h-full flex flex-col overflow-x-hidden w-full">
-      
+
       <ParticleBackground /> {/* Particle background is in the background */}
       <Header />
-      <About />
       <Experience />
+      <About />
       <Projects />
       <MessageForm />
     </main>
